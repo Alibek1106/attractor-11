@@ -1,0 +1,242 @@
+.header{
+    padding: 14px 0 10px;
+    box-shadow: 0px 4px 10px rgba(105, 105, 105, 0.1);
+    margin-bottom: 60px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+}
+
+.header-list{
+    display: flex;
+    margin-left: 49px;
+    list-style: none;
+}
+
+.header-list-items a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-list-items a:hover{
+    border-bottom: 1px solid red;
+}
+
+.header-list-items:not(:last-child){
+    margin-right: 40px;
+}
+
+.header-list-items-main{
+    font-weight: 600;
+}
+
+.hero-container{
+    border-bottom: 4px solid #F4E8DA;
+    padding-bottom: 74px;
+}
+
+.hero h1{
+    color: #0C58C9;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 45px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.list-header{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+    margin: 0 0 20px 40px;
+}
+
+.first-list, .third-list{
+    list-style: url('../images/Done.svg');
+}
+
+.first-list, .second-list, .third-list li:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.main-pic{
+    background-image: url('../images/behind-main-pic.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    background-size: contain;
+    padding: 0 0 116px;
+    float: right;
+    width: 37.5%;
+    max-width: 517px;
+    margin-top: 35px;
+}
+
+.main-pic img{
+    border-radius: 30px;
+    width: 67%;
+    margin-left: 13.5%;
+    height: auto;
+}
+
+.second-list{
+    margin-top: 54px;
+}
+
+.third-list{
+    margin-top: 126px;
+}
+
+.btns a{
+    display: block;
+    margin-right: 5%;
+}
+
+.btn-lvl{
+    background: #F4E8DA;
+    border: 1px solid #ECBF2E;
+    border-radius: 20px;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    padding: 21px 34px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.btn-onl{
+    display: block;
+    background: #FFF;
+    border: 3px solid #ECBF2E;
+    box-shadow: -4px -4px 20px #F4E8DA, 4px 4px 20px #F4E8DA;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
+    padding: 21px 34px;
+    text-transform: uppercase;
+}
+
+.btns{
+    text-align: center;
+    margin-top: 57px;
+    display: flex;
+    justify-content: center;
+}
+
+.first-step{
+    padding: 66px 0 95px;
+}
+
+.first-step h2{
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #0C58C9;
+    text-align: center;
+    margin-bottom: 99px;
+}
+
+.lake-pic{
+    max-width: 690px;
+    width: 50%;
+    float: right;
+    padding: 41px 2.3% 73px 0;
+    background-image: url('../images/behind-lake-pic.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+}
+
+.lake-pic img{
+    width: 97.681159%;
+    height: auto;
+}
+
+.lake-ol{
+    list-style: none;
+    text-transform: uppercase;
+    counter-reset: lake-ol;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #3D3F42;
+    padding: 0;
+    padding-top: 70px;
+}
+
+.lake-ol li{
+    display: flex;
+    align-items: center;
+}
+
+.lake-ol li::before{
+    display: block;
+    margin:0 15px 0 0;
+    counter-increment: lake-ol;
+    content: counter(lake-ol);
+    font-family: 'HelveticaNeueCyr', sans-serif;
+    font-weight: 550;
+    font-size: 64px;
+    line-height: 63px;
+    text-transform: uppercase;
+    color: #ECBF2E;
+}
+
+.first-step a{
+    display: inline-block;
+    margin-top: 58px;
+    margin-bottom: 82px;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.navigation{
+    border-top: 3px solid #F4E8DA;
+    padding: 34px 0 40px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.nav-items{
+    list-style: none;
+    padding: 0;
+    margin-left: 10%;
+    margin-right: 9.8%;
+}
+
+.nav-items li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.social-icons{
+    margin-right: 19.2%;
+}
+
+.social-icons h5{
+    margin: 0;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.pay{
+    text-align: center;
+}
+
+.pay a{
+    display: block;
+}
+
+
+.footer{
+    padding: 21px 0 53px;
+    text-align: center;
+}
